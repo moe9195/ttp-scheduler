@@ -97,7 +97,7 @@ const TEST_DATA = [
 
 const formatDate = (dateString) => {
   const date = new Date(dateString);
-  return format(date, "MMMM d, yyyy, h:mm aa zzz");
+  return format(date, "MMMM d, yyyy, h:mm aa");
 };
 
 const humanizeData = (data) => {
