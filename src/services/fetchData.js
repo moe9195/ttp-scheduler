@@ -14,8 +14,6 @@ const fetchData = async () => {
     const response = await axios.get(API_ENDPOINT);
     const data = response.data;
 
-    data.push(...TEST_DATA);
-
     if (data.length > 0) {
       const mailOptions = {
         from: EMAIL_USER,
